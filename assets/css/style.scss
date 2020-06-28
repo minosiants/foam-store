@@ -29,6 +29,9 @@ hr {
 #title h1 {
   margin: revert;
 }
+section #title .credits {
+  color: rgba(216, 222, 233,0.5)
+}
 section {
   margin-top: 0;
 }
@@ -48,6 +51,10 @@ code {
   font-family: JetBrains Mono, Monaco, Bitstream Vera Sans Mono;
   background: rgb(59, 66, 82);
   border-radius: 4px;
+  box-shadow: none;
+}
+ul{
+  list-style: circle;
 }
 .markdown-body {
   max-width: 800px;
