@@ -4,7 +4,11 @@
 @import "{{ site.theme }}";
 #header {
   position: relative;
-  visibility: hidden; 
+  visibility: hidden;
+  height: 0; 
+}
+section {
+  margin-top: 0;
 }
 .markdown-body {
   max-width: 800px;
