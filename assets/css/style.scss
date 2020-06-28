@@ -14,7 +14,7 @@ section #title h1, body {
 }
 .wrapper {
   background: rgb(46, 52, 64);
-
+  border-radius: 4px;
 }
 #header {
   position: relative;
@@ -40,7 +40,14 @@ a:hover {
   color: rgb(136, 192, 208);
   background: rgba(76, 86, 106, 0.8);
 }
-
+pre {
+  background: rgb(59, 66, 82);
+}
+.code {
+  font-family: JetBrains Mono, Monaco, Bitstream Vera Sans Mono;
+  background: rgb(59, 66, 82);
+  border-radius: 4px;
+}
 .markdown-body {
   max-width: 800px;
   font-size: 16px;
