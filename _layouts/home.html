@@ -7,7 +7,7 @@ layout: default
 <script type="text/javascript">
   // Hack: Replace page-link with "Page Title"
   document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
-    a.innerText = "Knowledge Base";
+    a.innerText = a.title;
   });
   document.querySelectorAll("head").forEach((head) => {
     const link = document.createElement("link");
