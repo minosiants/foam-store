@@ -9,9 +9,14 @@ body {
 section #title h1, body {
   color: rgb(236, 239, 244);
   line-height: 1.5;
-  font-family: Lato;
-
+  font-family: Lato, OpenSansLight;
 }
+section #title p {
+  font-family: Lato, OpenSansLight;
+  color: #A3BE8C
+}
+
+
 .wrapper {
   background: rgb(46, 52, 64);
   border-radius: 4px;
