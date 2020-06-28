@@ -46,12 +46,12 @@ a:hover {
 pre {
   background: rgb(59, 66, 82);
   border: 1px solid rgb(59, 66, 82);
+  box-shadow: none;
 }
 code {
   font-family: JetBrains Mono, Monaco, Bitstream Vera Sans Mono;
   background: rgb(59, 66, 82);
   border-radius: 4px;
-  box-shadow: none;
 }
 ul{
   list-style: circle;
