@@ -2,6 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
+
+section #title h1, body {
+  color: rgb(236, 239, 244);
+  background: rgb(36, 41, 51);
+  line-height: 1.5;
+  font-family: Inter;
+
+}
+
 #header {
   position: relative;
   visibility: hidden;
@@ -10,7 +19,13 @@
 section {
   margin-top: 0;
 }
+a {
+  color: rgb(136, 192, 208);
+  text-decoration: none;
+}
+
 .markdown-body {
+  background-color: rgb(46, 52, 64);
   max-width: 800px;
   font-size: 16px;
 }
@@ -35,6 +50,6 @@ h3,
 h4,
 h5,
 blockquote {
-  font-family: Inter, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida,
+  font-family: Rubik, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida,
     "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
