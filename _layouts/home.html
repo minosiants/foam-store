@@ -9,4 +9,10 @@ layout: default
   document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
     a.innerText = a.title;
   });
+  document.querySelectorAll("head").forEach((head) => {
+    const link = document.createElement("link");
+    link.setAttribute("href", "https://fonts.googleapis.com/css?family=Lato&display=swap")
+    link.setAttribute("rel", "stylesheet")
+    head.appendChild(link)
+  });
 </script>

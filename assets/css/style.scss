@@ -3,14 +3,19 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background: rgb(36, 41, 51);
+}
 section #title h1, body {
   color: rgb(236, 239, 244);
-  background: rgb(36, 41, 51);
   line-height: 1.5;
-  font-family: Inter;
+  font-family: Lato;
 
 }
-
+.wrapper {
+  background: rgb(46, 52, 64);
+  
+}
 #header {
   position: relative;
   visibility: hidden;
@@ -25,7 +30,6 @@ a {
 }
 
 .markdown-body {
-  background-color: rgb(46, 52, 64);
   max-width: 800px;
   font-size: 16px;
 }
